@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+              
 //O(n^2) not good 
 void changeZeroPosition(int a[], int n)
 {
