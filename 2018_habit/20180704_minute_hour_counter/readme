@@ -1,0 +1,12 @@
+1 introduction
+    题目: 做一个 分钟/小时 计数器
+    场景:
+    服务器每秒钟会有很多次请求，想通过一个工具，查看服务器每分钟/每小时请求的数据量(bytes)
+
+2 实现方案
+    桶方案
+    每个桶内存储该时间段内请求的数据量, 同时存储总请求量
+    实现三个类,自顶向下分别是
+        MinuteHourCounter.py 
+        TrailingBucketCounter.py
+        ConveyorQueue.py
