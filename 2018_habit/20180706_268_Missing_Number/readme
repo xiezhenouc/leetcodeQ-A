@@ -1,0 +1,10 @@
+question:
+Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
+
+Input: [3,0,1]
+Output: 2
+
+Your algorithm should run in linear runtime complexity. Could you implement it using only constant extra space complexity?
+
+analysis
+遍历求和，sum[0..n] - cur_sum = missing value
