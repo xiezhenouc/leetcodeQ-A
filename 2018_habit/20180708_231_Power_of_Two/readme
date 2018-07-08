@@ -1,0 +1,7 @@
+question
+Given an integer, write a function to determine if it is a power of two.
+
+是否是2的指数次方
+
+analysis
+bit中的最高位是1,其余为0，可以用n&(n-1)来判断
