@@ -1,0 +1,6 @@
+question
+Given an integer n, return the number of trailing zeroes in n!.
+
+analysis
+2 足够
+5因子的个数
