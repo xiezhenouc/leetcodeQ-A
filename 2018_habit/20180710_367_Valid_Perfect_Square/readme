@@ -1,0 +1,5 @@
+question
+Given a positive integer num, write a function which returns True if num is a perfect square else False.
+
+二分法
+牛顿迭代法
