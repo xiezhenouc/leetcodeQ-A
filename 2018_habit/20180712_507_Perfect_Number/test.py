@@ -3,6 +3,7 @@
 
 import math
 
+
 class Solution(object):
     def checkPerfectNumber(self, num):
         """
@@ -21,13 +22,13 @@ class Solution(object):
                 factor_set.add(num / i)
 
         return sum(factor_set) == num
-        
+
 
 obj = Solution()
 num = 100000000
 print obj.checkPerfectNumber(num)
 
-#for num in range(0, 100000):
+# for num in range(0, 100000):
 #    if obj.checkPerfectNumber(num):
 #        print num
 #
