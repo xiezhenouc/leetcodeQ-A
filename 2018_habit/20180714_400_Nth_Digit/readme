@@ -1,0 +1,28 @@
+question
+Find the nth digit of the infinite integer sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ...
+
+example
+Input:
+11
+
+Output:
+0
+
+Explanation:
+The 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.
+
+analysis
+一开始没看懂题意，后来仔细看了下，发现是自然数排列，然后看是第几个数digit
+
+answer
+分为两步
+1 第n个digit会落在哪个数字上面
+2 确定第n个digit会落在哪个具体的digit上
+
+第1个问题，由于1位数的数字共9个，2位数的数字共90个，3位数的数字共900个... 
+因此，循环判断第n个digit是哪个几位数字
+如n = 150，1位数的时候，150 - 9 = 141 > 0，2位数的时候， 141 - 2 * 90 < 0，因此，肯定是个两位数字，具体是哪个数字呢？
+10 + (141 - 1 / 2) = 80 注意，此处减去1的原因是补上10的那个0
+第2个问题
+(141 - 1) % 2 = 0，即为8
+
