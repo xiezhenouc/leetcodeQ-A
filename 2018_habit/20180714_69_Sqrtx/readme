@@ -1,0 +1,5 @@
+question
+Implement int sqrt(int x).
+
+analysis
+二分查找
