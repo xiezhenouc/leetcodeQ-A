@@ -1,0 +1,16 @@
+question
+Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+
+For example:
+
+    1 -> A
+    2 -> B
+    3 -> C
+    ...
+    26 -> Z
+    27 -> AA
+    28 -> AB 
+    ...
+
+26进制数字
+注意，多跑几个例子，不能想当然
