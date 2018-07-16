@@ -1,0 +1,5 @@
+question
+Count the number of prime numbers less than a non-negative number, n.
+
+analysis
+厄拉多塞筛法
