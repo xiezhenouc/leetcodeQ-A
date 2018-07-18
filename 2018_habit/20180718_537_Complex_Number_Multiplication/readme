@@ -1,0 +1,7 @@
+question
+Input: "1+1i", "1+1i"
+Output: "0+2i"
+Explanation: (1 + i) * (1 + i) = 1 + i2 + 2 * i = 2i, and you need convert it to the form of 0+2i.
+
+analysis
+(a1 + a2i) * (b1 + b2i) = (a1b1 - a2b2) + (a1b2 + a2b1)i = c1 + c2i 
